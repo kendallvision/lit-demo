@@ -14,10 +14,16 @@ export default class TestElement extends BaseElement {
                     border-radius: 16px;
                     font-weight: bold;
                     font-size: 26pt;
+                    height: 250px;
                 }
             </style>
             <div id="testApplication">
-                Test Application
+                <div>
+                    <h2>Test Application</h2>
+                </div>
+                <div>
+                    InnerHTML: <slot></slot>
+                </div>
             </div>
         `
     }
