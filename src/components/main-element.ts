@@ -1,7 +1,8 @@
-import {LitElement, html, customElement, property} from 'lit-element'
+import {html, customElement, property} from 'lit-element'
+import BaseElement from './BaseElement'
 
 @customElement('main-element')
-export default class MainElement extends LitElement {
+export default class MainElement extends BaseElement {
 
     @property()
     message:string = 'This is the default message.'

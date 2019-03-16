@@ -8,7 +8,13 @@ module.exports = {
         publicPath: '/dist/'
     },
     mode: "development",
+    resolve: {
+        extensions: ['.ts', '.js', '.json']
+    },
     module: {
-        rules: [{test: /\.ts/, use: 'ts-loader'}]
+        rules: [
+            {test: /\.ts/, use: 'ts-loader'},
+            {test: /\.css/, use: 'css-loader'}
+        ]
     }
 }

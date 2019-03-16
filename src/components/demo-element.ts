@@ -1,7 +1,8 @@
-import {LitElement, html, property, customElement} from 'lit-element'
+import {html, property, customElement} from 'lit-element'
+import BaseElement from './BaseElement'
 
 @customElement('demo-element')
-export default class DemoElement extends LitElement {
+export default class DemoElement extends BaseElement {
 
     @property({type: Boolean})
     checked:boolean = true;

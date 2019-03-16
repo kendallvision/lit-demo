@@ -2,21 +2,17 @@
 <html>
     <head>
         <title>EDGE Test</title>
-        <style>
-            body {
-                font-size: 24pt;
-            }
-        </style>
-
         <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
         <script src="/dist/bundle.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="index.css"/>
     </head>
     <body>
         <div>
             <h2>Application Below</h2>
-            <test-element>Look at this text</test-element>
-            <main-element>Inner text that should not flash.</main-element>
-            <demo-element>This should not show</demo-element>
+            <test-element unresolved>Look at this text</test-element>
+            <main-element unresolved>Inner text that should not flash.</main-element>
+            <demo-element unresolved>This should not show</demo-element>
         </div>
     </body>
 </html>

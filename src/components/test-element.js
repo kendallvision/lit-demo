@@ -1,6 +1,7 @@
-import {LitElement, html} from 'lit-element'
+import {html} from 'lit-element'
+import BaseElement from './BaseElement'
 
-export default class TestElement extends LitElement {
+export default class TestElement extends BaseElement {
     static get is() { return 'test-element' }
 
     render() {
