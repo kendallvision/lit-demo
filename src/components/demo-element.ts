@@ -1,5 +1,5 @@
-import {html, property, customElement} from 'lit-element'
 import BaseElement from './BaseElement'
+import {html, property, customElement} from 'lit-element'
 
 @customElement('demo-element')
 export default class DemoElement extends BaseElement {
@@ -15,6 +15,8 @@ export default class DemoElement extends BaseElement {
                     padding: 25px;
                     background-color: royalblue;
                     border-radius: 15px;
+                    height: 300px;
+                    color: white;
                 }
 
             </style>
