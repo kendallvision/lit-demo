@@ -16,7 +16,13 @@ export default class TestElement extends BaseElement {
                     font-size: 26pt;
                     height: 250px;
                 }
+
+                h2 {
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                }
             </style>
+            
             <div id="testApplication">
                 <div>
                     <h2>Test Application</h2>
