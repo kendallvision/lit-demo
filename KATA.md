@@ -28,13 +28,22 @@ Make the following changes to tsconfig.json
 * module = "es2015"
 * Uncomment moduleResolution = 'node'
 * Uncomment experimentalDecorators = 'true'
+
 * Add major option "include" - array with "./src/components/**/*"
 * Add major option "exclude" -- array with 'node_modules'
+
+<pre>
+    "include": [
+        "./src/components/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+</pre>
 
 ### Set up webpack.config.js
 
 * Create the config file
-* Populate it with this
 
 <pre>
 var path = require('path');
@@ -60,7 +69,7 @@ module.exports = {
 
 ### Basic App
 
-* Create example component in the src\components directory
+* Create an example LitElement component in the src\components directory
 * Include @customElement, @property
 * Create ./index.ts and import the component without extension.
 * Create index.html
@@ -88,5 +97,3 @@ module.exports = {
 * Make first commit
 * Attach to GitHub
 * Push first commit
-
-
