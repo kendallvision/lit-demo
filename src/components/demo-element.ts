@@ -17,16 +17,22 @@ export default class DemoElement extends BaseElement {
                     border-radius: 15px;
                     height: 300px;
                     color: white;
+                    user-select: none;
+                    cursor: pointer;
                 }
 
             </style>
 
-            <div id="demoElement">
+            <div id="demoElement" @click=${this.clickHandler}>
                 <b>Demo Element</b>
                 <div>
                     Is Checked: ${this.checked}
                 </div>
             </div>
         `
+    }
+
+    clickHandler(event:MouseEvent) {
+        console.log(event);
     }
 }
