@@ -1,5 +1,15 @@
 This project demonstates using Polymer 3.0 LitElement with Typescript and Webpack
 
+## Getting Started
+
+You will need to issue the following commands to get started the first time:
+
+<pre>
+npm install
+npm run build
+npm start
+</pre>
+
 ## Available Scripts
 
 In the project directory, you can run:
