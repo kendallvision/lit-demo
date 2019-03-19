@@ -6,13 +6,14 @@ export default class TestElement extends BaseElement {
 
     static styles = css `
         #testApplication {
-            padding: 10px;
+            padding: 20px;
             margin: 10px;
             background-color: yellow;
             border-radius: 16px;
             font-weight: bold;
-            font-size: 26pt;
-            height: 250px;
+            font-size: 18pt;
+            height: 150px;
+            width: 500px;
             user-select: none;
             -ms-user-select: none;
         }

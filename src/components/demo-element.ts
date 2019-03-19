@@ -10,10 +10,11 @@ export default class DemoElement extends BaseElement {
     static styles = css `
         #demoElement {
             margin: 10px;
-            padding: 25px;
+            padding: 20px;
             background-color: royalblue;
             border-radius: 15px;
-            height: 300px;
+            height: 150px;
+            width: 500px;
             color: white;
             user-select: none;
             -ms-user-select: none;
