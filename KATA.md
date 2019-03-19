@@ -97,25 +97,3 @@ module.exports = {
 * Make first commit
 * Attach to GitHub
 * Push first commit
-
-## Try this for styles
-<pre>
-   static styles:CSSResult = css `
-        :host div {
-            display: block;
-            width: 350px;
-            height: 200px;
-            background-color: rosybrown;
-            font-size: 18pt;
-            font-weight: bold;
-            border: 1px solid black;
-            box-shadow: 2px 2px #aeaeae;
-            border-radius: 10px;
-            margin: 10px;
-            padding: 10px;
-            cursor: pointer;
-            user-select: none;
-            -ms-user-select: none;
-        }
-    `
-</pre>
