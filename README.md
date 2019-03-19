@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### 'npm run build'
 
-Invokes WebPack and TypeScript to compile build the application.  Output is to the DIST directory.
+Invokes WebPack and TypeScript to compile and bundle the application.  Output is to the DIST directory.
 
 ### 'npm start'
 
