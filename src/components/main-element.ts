@@ -18,6 +18,7 @@ export default class MainElement extends BaseElement {
             -ms-user-select: none;
         }
     `
+    
     render() {
         return html `
             <div id="mainElement">

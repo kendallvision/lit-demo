@@ -1,8 +1,8 @@
-import {html, css} from 'lit-element'
+import {html, css, customElement} from 'lit-element'
 import BaseElement from './BaseElement'
 
+@customElement('test-element')
 export default class TestElement extends BaseElement {
-    static get is() { return 'test-element' }
 
     static styles = css `
         #testApplication {
@@ -36,5 +36,3 @@ export default class TestElement extends BaseElement {
         `
     }
 }
-
-customElements.define(TestElement.is, TestElement);
