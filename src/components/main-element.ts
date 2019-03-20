@@ -1,8 +1,8 @@
 import {html, css, customElement, property} from 'lit-element'
-import BaseElement from './BaseElement'
+import AdpBaseLitElement from './BaseElement'
 
 @customElement('main-element')
-export default class MainElement extends BaseElement {
+export default class MainElement extends AdpBaseLitElement {
 
     @property()
     message:string = 'This is the default message.'

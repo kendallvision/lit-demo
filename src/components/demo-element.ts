@@ -1,8 +1,8 @@
-import BaseElement from './BaseElement'
+import AdpBaseLitElement from './BaseElement'
 import {html, css, property, customElement} from 'lit-element'
 
 @customElement('demo-element')
-export default class DemoElement extends BaseElement {
+export default class DemoElement extends AdpBaseLitElement {
 
     @property({type: Boolean})
     checked:boolean = true;
