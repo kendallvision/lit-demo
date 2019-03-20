@@ -1,4 +1,4 @@
-#Lit-Element Demo Application
+# Lit-Element Demo Application
 
 This project demonstates using Polymer 3.0 LitElement with Typescript and Webpack
 
