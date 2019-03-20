@@ -13,9 +13,15 @@ export default class MainElement extends BaseElement {
             margin: 10px;
             border-radius: 10px;
             background-color: rosybrown;
-            height: 250px;
+            height: 150px;
+            width: 500px;
             user-select: none;
             -ms-user-select: none;
+        }
+
+        #mainElement h2 {
+            margin-top: 10px;
+            margin-bottom: 15px;
         }
     `
 
