@@ -18,14 +18,12 @@ export default class MainElement extends BaseElement {
             -ms-user-select: none;
         }
     `
-    
+
     render() {
         return html `
             <div id="mainElement">
-                <div>
-                    <h2>Main Element</h2>
-                    Message: ${this.message}
-                </div>
+                <h2>Main Element</h2>
+                Message: ${this.message}
             </div>
         `
     }

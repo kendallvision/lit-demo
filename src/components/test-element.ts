@@ -1,8 +1,8 @@
 import {html, css, customElement} from 'lit-element'
-import BaseElement from './BaseElement'
+import AdpBaseLitElement from './BaseElement'
 
 @customElement('test-element')
-export default class TestElement extends BaseElement {
+export default class TestElement extends AdpBaseLitElement {
 
     static styles = css `
         #testApplication {
