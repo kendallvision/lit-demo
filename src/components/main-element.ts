@@ -1,5 +1,5 @@
 import {html, css, customElement, property} from 'lit-element'
-import AdpBaseLitElement from './BaseElement'
+import {AdpBaseLitElement} from './BaseElement'
 
 @customElement('main-element')
 export default class MainElement extends AdpBaseLitElement {
@@ -17,11 +17,13 @@ export default class MainElement extends AdpBaseLitElement {
             width: 500px;
             user-select: none;
             -ms-user-select: none;
+            font-size: 16pt;
         }
 
         #mainElement h2 {
             margin-top: 10px;
             margin-bottom: 15px;
+            font-size: 24pt;
         }
     `
 
