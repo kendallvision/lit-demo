@@ -1,6 +1,10 @@
 # Lit-Element Demo Application
 
-This project demonstates using Polymer 3.0 LitElement with Typescript and Webpack
+This project demonstates the following disciplines:
+* Google Polymer LitElement components
+* Using Webpack to successfully integrate LitElement with Typescript and Polymer Decorators
+* Smooth rendering using "unresolved"
+* Polymer LitElement support on Chrome, Edge, and Safari.
 
 ## Getting Started
 
