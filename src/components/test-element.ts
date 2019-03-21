@@ -5,7 +5,7 @@ import {AdpBaseLitElement} from './BaseElement'
 export default class TestElement extends AdpBaseLitElement {
 
     static styles = css `
-        #testApplication {
+        #testElement {
             padding: 20px;
             margin: 10px;
             background-color: yellow;
@@ -18,17 +18,25 @@ export default class TestElement extends AdpBaseLitElement {
             -ms-user-select: none;
         }
 
-        h2 {
+        #testElement h2 {
+            font-size: 24pt;
             margin-top: 10px;
             margin-bottom: 15px;
+        }
+
+        #testElement h3 {
+            margin-top: 5px;
+            font-size: 12pt;
+            font-style: italic;
         }
     `
 
     render() {
         return html `
-            <div id="testApplication">
+            <div id="testElement">
                 <div>
                     <h2>Test Application</h2>
+                    <h3>This element demonstrates controlling where the innerHtml displays</h3>
                 </div>
                 <div>
                     InnerHTML: <slot></slot>

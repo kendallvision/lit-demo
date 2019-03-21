@@ -25,12 +25,19 @@ export default class MainElement extends AdpBaseLitElement {
             margin-bottom: 15px;
             font-size: 24pt;
         }
+
+        #mainElement h3 {
+            margin-top: 5px;
+            font-size: 12pt;
+            font-style: italic;
+        }
     `
 
     render() {
         return html `
             <div id="mainElement">
                 <h2>Main Element</h2>
+                <h3>This component demonstrates utilizing internal properties</h3>
                 Message: ${this.message}
             </div>
         `

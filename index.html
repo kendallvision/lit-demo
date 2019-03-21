@@ -3,7 +3,7 @@
     <head>
         <title>EDGE Test</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
         <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
         <script src="/dist/bundle.js"></script>
 
@@ -13,8 +13,8 @@
         <div>
             <h2>Application Below</h2>
             <test-element>Look at this inner html text</test-element>
-            <main-element>Inner text that should not flash.</main-element>
-            <demo-element>This should not show</demo-element>
+            <main-element message="This is the message that will be displayed.">Inner text that should not flash.</main-element>
+            <demo-element>This should not show or flash.</demo-element>
         </div>
     </body>
 </html>

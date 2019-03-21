@@ -20,12 +20,21 @@ export default class DemoElement extends AdpBaseLitElement {
             -ms-user-select: none;
             cursor: pointer;
         }
+
+        #demoElement h3 {
+            margin-top: 5px;
+            font-size: 14pt;
+            font-style: italic;
+        }
     `
 
     render() {
         return html `
             <div id="demoElement" @click=${this.clickHandler}>
-                <b>Demo Element</b>
+                <b>Clickable Demo Element</b>
+                <div>
+                    <h3>Click this component to toggle the boolean</h3>
+                </div>
                 <div>
                     Is Checked: ${this.checked}
                 </div>
@@ -35,6 +44,6 @@ export default class DemoElement extends AdpBaseLitElement {
 
     clickHandler(event:MouseEvent) {
         this.checked = !this.checked;
-        console.log(event);
+        console.info(event);
     }
 }
