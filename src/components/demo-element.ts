@@ -1,4 +1,4 @@
-import {AdpBaseLitElement} from './BaseElement'
+import {AdpBaseLitElement} from './AdpBaseLitElement'
 import {html, css, property, customElement} from 'lit-element'
 
 @customElement('demo-element')

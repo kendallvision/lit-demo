@@ -1,5 +1,5 @@
 import {html, css, customElement} from 'lit-element'
-import {AdpBaseLitElement} from './BaseElement'
+import {AdpBaseLitElement} from './AdpBaseLitElement'
 
 @customElement('test-element')
 export default class TestElement extends AdpBaseLitElement {
